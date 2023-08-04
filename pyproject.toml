@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "mlflow_mpu"}]
 
 [tool.poetry.dependencies]
-python = ">=3.8"
+python = "^3.10"
 fastapi = "^0.100.1"
 boto3 = "^1.28.19"
 pydantic = "^2.1.1"

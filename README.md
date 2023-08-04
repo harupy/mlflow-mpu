@@ -5,6 +5,9 @@ A prototype for https://github.com/mlflow/mlflow/issues/9133. For faster iterati
 ## Development
 
 ```sh
+# installation
+poetry install
+
 # start app
 poetry run uvicorn server:app --reload
 
