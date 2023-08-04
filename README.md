@@ -1,6 +1,11 @@
 # MLflow MPU (WIP)
 
-A prototype for https://github.com/mlflow/mlflow/issues/9133. For faster iteration, FastAPI is used. The goal is a POC of the design and find issues beforehand.
+A prototype for https://github.com/mlflow/mlflow/issues/9133. For faster iteration, FastAPI is used.
+
+## Goals
+
+- POC of the design.
+- Find issues/challenges.
 
 ## Development
 
