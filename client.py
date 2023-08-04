@@ -43,10 +43,7 @@ def main():
         )
         response.raise_for_status()
         data = response.json()
-        print(data)
-
         chunk_size = 1024 * 1024  # 1 MB
-
         try:
             for i in range(data["num_parts"]):
                 with large_file.open("rb") as f:
